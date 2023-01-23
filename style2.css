@@ -1,0 +1,170 @@
+*{
+	margin:0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	font-family: sans-serif;
+}
+.nav {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #252839;
+
+}
+.nav li{
+	position: relative;
+	list-style: none;
+}
+.nav li a{
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke:1px rgba(255,255,255,0.5);
+	padding-right:15px;
+}
+.nav li a::before{
+	content: attr(data-text);
+	position: absolute;
+	color: var(--clr);
+	width: 0;
+	height: 20px;
+	overflow: hidden;
+	transition: 1s;
+	border-right: 2px solid var(--clr);
+	-webkit-text-stroke:1px var(--clr);
+}
+.nav li a:hover::before{
+	width: 100%;
+	filter: drop-shadow(0 0 25px var(--clr));
+}
+ #opste{
+ 	width: 100%;
+	height: 400px;
+
+background-image: url("opsta.png");
+background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+ }
+ #geog{
+ 	width: 100%;
+	height: 400px;
+
+background-image: url("geografija.png");
+background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+ }
+ #bio{
+ 	width: 100%;
+	height: 400px;
+
+
+	background-image: url("biologija.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+ }
+ #ist{
+ 	width: 100%;
+	height: 400px;
+
+
+	background-image: url("istorija.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+ }
+
+ button{
+width: 130px;
+height: 40px;
+border-radius: 25px;
+
+font-size: 20px;
+
+	background:linear-gradient(to bottom right, blue,rgb(57,193,180)) ;
+	border:none;
+	cursor: pointer;
+	transition: .5s ease-in-out
+ }
+ button:hover{
+ 	background:linear-gradient(to top left, blue,rgb(57,193,180)) ;
+ 	color: white;
+ }
+ .footer{
+ 	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: white;
+ }
+ h1{
+
+padding-top:170px;
+ }
+ @media (min-width: 720px) and (max-width: 800px){
+#opste{
+    width: 800px;
+ }
+ #geog{
+    width: 800px;
+ }
+ #ist{
+    width: 800px;
+ }
+ #bio{
+    width: 800px;
+ }
+ .nav{
+ 	width: 800px;
+ }
+}
+ @media (min-width: 300px) and (max-width: 465px){
+#opste{
+    width: 465px;
+ }
+ #geog{
+    width: 465px;
+ }
+ #ist{
+    width: 465px;
+ }
+ #bio{
+    width: 465px;
+ }
+ .nav{
+ 	width: 465px;
+ 	font-size: 15px;
+ }
+}
+ @media (max-width: 300px){
+#opste{
+    width: 300px;
+ }
+ #geog{
+    width: 300px;
+ }
+ #ist{
+    width: 300px;
+ }
+ #bio{
+    width: 300px;
+ }
+ .nav{
+ 	width: 300px;
+ 	font-size: 8px;
+ }
+ h1{
+ 	font-size: 20px;
+ }
+ button{
+ 	width: 100px;
+ }
+}

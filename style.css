@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-image:linear-gradient( to bottom right,rgb(33,209,174),rgb(45,171,198)); 
+	
+}
+
+button{
+	width: 300px;
+	height: 70px;
+	border: 3px solid rgb(103,131,133);
+	border-radius: 10px;
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+	background: transparent;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+
+button:hover{
+	background-color: white;
+}
+span{
+	display: flex;
+justify-content: flex-start;
+background: transparent;
+font-weight: bold;
+}
+#nzm{
+
+}
+h2{
+
+	font-size: 40px;
+background:linear-gradient(to bottom right ,#801a00,#ffd6cc);
+-webkit-text-fill-color:transparent; 
+-webkit-background-clip:text;
+
+}
+a{
+	font-size: 20px;
+}
+label{
+	font-size: 20px;
+}
+img{
+	width: 600px;
+	height: 350px;
+
+
+}
+
+
+#vrijeme{
+	padding-top: 200px;
+}
+
+.brd{
+	font-size: 40px;
+	padding-top: 200px;
+}
+
+
+#ban{
+	font-weight: bold;
+}
+#bod{
+	font-weight: bold;
+}
+#tim{
+	font-weight: bold;
+}
+#corr{
+	font-weight: bold;
+	padding-left:200px; 
+}
+#correct{
+	font-weight: bold;
+padding-right:50px;
+}
+#fals{
+	font-weight: bold;
+}
+#falsee{
+	font-weight: bold;
+}
+#tim{
+	padding-left: 400px;
+}
+@media (min-width: 540px) and (max-width: 800px){
+	img{
+		width: 400px;
+		height: 300px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	button{
+		width: 200px;
+		font-size: 17px;
+	}
+	a{
+		font-size: 15px;
+	}
+	label{
+		font-size: 15px;
+	}
+	#tim{
+
+	padding-left: 170px;
+	 
+}
+#corr{
+	padding-left: 80px;
+}
+}
+@media (min-width: 440px) and (max-width: 540px){
+	img{
+		width: 290px;
+		height: 200px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	button{
+		width: 150px;
+		font-size: 15px;
+	}
+	a{
+		font-size: 13px;
+	}
+	label{
+		font-size: 13px;
+	}
+	#tim{
+
+	padding-left: 120px;
+	 
+}
+#corr{
+	padding-left: 50px;
+}
+}
+@media (min-width: 404px) and (max-width: 440px){
+	img{
+		width: 290px;
+		height: 200px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	button{
+		width: 150px;
+		font-size: 13px;
+	}
+	a{
+		font-size: 13px;
+	}
+	label{
+		font-size: 13px;
+	}
+	#tim{
+
+	padding-left: 100px;
+	 
+}
+#corr{
+	padding-left: 40px;
+}
+}
+@media (max-width: 404px){
+	img{
+		width: 180px;
+		height: 150px;
+	}
+	h2{
+		font-size: 14px;
+	}
+	button{
+		width: 90px;
+		font-size: 8px;
+		height: 50px;
+	}
+	a{
+		font-size: 10px;
+	}
+	label{
+		font-size: 10px;
+	}
+	#tim{
+
+	padding-left: 20px;
+	 
+}
+#corr{
+	padding-left: 15px;
+}
+#correct{
+	padding-right: 20px;
+}
+}
