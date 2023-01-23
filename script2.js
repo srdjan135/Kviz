@@ -1,5 +1,5 @@
 function kvizic() {
-	window.open("index.html");
+	window.open("index2.html");
 }
 function bios(){
 	window.open("index3.html");
